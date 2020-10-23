@@ -110,7 +110,7 @@ clock_t begin = clock();
     clock_t end = clock();
     time_spent += (double)(end - begin) / CLOCKS_PER_SEC;
 
-    cout << "FCFS Parallel";
+    cout << "FCFS Parallel\n";
     cout << "Average Turnaround Time = " << avg_turnaround_time << endl;
     cout << "Average Waiting Time = " << avg_waiting_time << endl;
     cout << "Average Response Time = " << avg_response_time << endl;

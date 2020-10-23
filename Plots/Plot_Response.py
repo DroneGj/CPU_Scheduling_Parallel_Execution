@@ -3,12 +3,11 @@ import matplotlib.pyplot as plt
 
 algos = ['FCFS', 'Priority-NP', 'Priority-P', 'Round-Robin', 'SJF', 'SRTF']
 
-serial = [10.445440, 9.415920, 8.772490, 8.790760, 9.538690, 8.154810]
-parallel = [8.302670, 8.803790, 8.466490, 8.486900, 8.485330, 8.478980]
+serial = [2688.75, 2564.21, 1810.90, 6408.82, 1888.56, 1403.28]
+parallel = [2538.70, 2481.79, 1820.69, 5287.22, 1770.82, 1393.21]
 
 plt.plot(algos, serial)
 plt.plot(algos, parallel)
-
 
 plt.title("Response Time for CPU Scheduling", fontsize=15)
 plt.xlabel("Scheduling Algorithm", fontsize=15)

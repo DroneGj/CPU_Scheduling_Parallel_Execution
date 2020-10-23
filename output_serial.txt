@@ -1,0 +1,47 @@
+FCFS Serial
+Average Turnaround Time = 2743.89
+Average Waiting Time = 2688.75
+Average Response Time = 2688.75
+CPU Utilization = 99.98%
+Throughput = 0.02 process/unit time
+Time elpased = 1.06seconds
+
+Priority Non-Preemptive Serial
+Average Turnaround Time = 2619.35
+Average Waiting Time = 2564.21
+Average Response Time = 2564.21
+CPU Utilization = 99.98%
+Throughput = 0.02 process/unit time
+Time elpased = 1.09seconds
+
+Priority Preemptive Serial
+Average Turnaround Time = 724.45
+Average Waiting Time = 669.34
+Average Response Time = 525.90
+CPU Utilization = 99.94%
+Throughput = 0.02 process/unit time
+Time elpased = 0.32seconds
+
+RR Serial
+Average Turnaround Time = 3817.97
+Average Waiting Time = 3762.39
+Average Response Time = 8608.82
+CPU Utilization = 100.00%
+Throughput = 0.03 process/unit time
+Time elpased = 0.96seconds
+
+SJF Serial
+Average Turnaround Time = 1943.70
+Average Waiting Time = 1888.56
+Average Response Time = 1888.56
+CPU Utilization = 99.98%
+Throughput = 0.02 process/unit time
+Time elpased = 0.91seconds
+
+SRTF Serial
+Average Turnaround Time = 555.21
+Average Waiting Time = 500.10
+Average Response Time = 407.28
+CPU Utilization = 99.94%
+Throughput = 0.02 process/unit time
+Time elpased = 0.28seconds

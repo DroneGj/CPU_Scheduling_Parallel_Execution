@@ -1,16 +1,15 @@
 import matplotlib.pyplot as plt
-# response time, waiting time, turnaround time
 
 algos = ['FCFS', 'Priority-NP', 'Priority-P', 'Round-Robin', 'SJF', 'SRTF']
 
-serial = [10.445440, 9.415920, 8.772490, 8.790760, 9.538690, 8.154810]
-parallel = [8.302670, 8.803790, 8.466490, 8.486900, 8.485330, 8.478980]
+serial = [2743.89, 2619.35, 2456.45, 3817.97, 1943.70, 1913.21]
+parallel = [2592.07, 2535.16, 2423.83, 3641.71, 1824.19, 1751.62]
 
 plt.plot(algos, serial)
 plt.plot(algos, parallel)
 
 
-plt.title("Response Time for CPU Scheduling", fontsize=15)
+plt.title("Turnaround Time for CPU Scheduling", fontsize=15)
 plt.xlabel("Scheduling Algorithm", fontsize=15)
 plt.ylabel("Time", fontsize=15)
 

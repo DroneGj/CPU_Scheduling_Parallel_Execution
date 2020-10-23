@@ -1,0 +1,47 @@
+FCFS Parallel
+Average Turnaround Time = 2592.07
+Average Waiting Time = 2538.70
+Average Response Time = 2538.70
+CPU Utilization = 99.93%
+Throughput = 0.02 process/unit time
+Time elpased = 1.22seconds
+
+Priority Non-Preemptive Parallel
+Average Turnaround Time = 2535.16
+Average Waiting Time = 2481.79
+Average Response Time = 2481.79
+CPU Utilization = 99.93%
+Throughput = 0.02 process/unit time
+Time elpased = 1.43seconds
+
+Priority Preemptive Parallel
+Average Turnaround Time = 700.83
+Average Waiting Time = 650.38
+Average Response Time = 564.69
+CPU Utilization = 99.39%
+Throughput = 0.02 process/unit time
+Time elpased = 0.70seconds
+
+RR Parallel
+Average Turnaround Time = 3641.71
+Average Waiting Time = 3589.15
+Average Response Time = 5287.22
+CPU Utilization = 100.00%
+Throughput = 0.03 process/unit time
+Time elpased = 1.50seconds
+
+SJF Parallel
+Average Turnaround Time = 1824.19
+Average Waiting Time = 1770.82
+Average Response Time = 1770.82
+CPU Utilization = 99.93%
+Throughput = 0.02 process/unit time
+Time elpased = 1.33seconds
+
+SRTF Parallel
+Average Turnaround Time = 479.62
+Average Waiting Time = 429.17
+Average Response Time = 404.21
+CPU Utilization = 99.39%
+Throughput = 0.02 process/unit time
+Time elpased = 0.63seconds
